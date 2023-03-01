@@ -5,7 +5,7 @@ function Layout({ children, header, isForm = true, submit = () => null }) {
     return (
         <>
             <Box sx={{ height: '70px', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid grey' }}>
-                <Typography sx={{ width: "25%", pl: 4, fontSize: { xs: '20px', lg: '30px' }, fontWeight: '700' }}>Eden's Project</Typography>
+                <Typography sx={{ width: "25%", pl: 4, fontSize: { xs: '20px', lg: '30px' }, fontWeight: '700' }}>Customer Management System</Typography>
                 <Box sx={{ display: 'flex', width: '30%', justifyContent: 'space-between', }}>
                     <Box component={'a'} sx={{ color: 'black', textDecoration: 'none' }} href='/add'>Add </Box>
                     <Box component={'a'} sx={{ color: 'black', textDecoration: 'none' }} href='/update'>Update </Box>
