@@ -3,7 +3,7 @@ import axios from 'axios'
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router'
 import CustomButton from '../components/button'
-import Input from '../components/input'
+// import Input from '../components/input'
 import Layout from '../components/layout'
 import { Box } from '@mui/material'
 
@@ -41,9 +41,9 @@ function UpdateCustomers(props) {
     }, [id])
     return (
         <Layout header={'Update Customer'} submit={submit}>
-            <Input onChange={onChange} required name={'firstName'} disabled value={state?.firstName} />
+            {/* <Input onChange={onChange} required name={'firstName'} disabled value={state?.firstName} />
             <Input onChange={onChange} required name={'lastName'} disabled value={state?.lastName} />
-            <Input onChange={onChange} required name={'email'} type='email' disabled value={state?.email}   />
+            <Input onChange={onChange} required name={'email'} type='email' disabled value={state?.email}   /> */}
             {/* <Input onChange={onChange} required name={'phone'} label={'Phone'} value={state?.phoneNumber} type='tel' disabled /> */}
             <Box name='productPlan' onChange={onChange} component='select' value={state?.productPlan} sx={{ width: '100%', my: 1, py: 2, px: 2, borderRadius: '5px' }}>
                 <Box component={'option'} sx={{ width: '100%' }} value='BASIC'>
