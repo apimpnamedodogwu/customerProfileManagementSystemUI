@@ -8,7 +8,7 @@ function Layout({ children, header, isForm = true, submit = () => null }) {
                 <Typography sx={{ width: "25%", pl: 4, fontSize: { xs: '20px', lg: '30px' }, fontWeight: '700' }}>Customer Management System</Typography>
                 <Box sx={{ display: 'flex', width: '30%', justifyContent: 'space-between', }}>
                     <Box component={'a'} sx={{ color: 'black', textDecoration: 'none' }} href='/add'>Add </Box>
-                    <Box component={'a'} sx={{ color: 'black', textDecoration: 'none' }} href='/update'>Update </Box>
+                    {/* <Box component={'a'} sx={{ color: 'black', textDecoration: 'none' }} href='/update'>Update </Box> */}
                     <Box component={'a'} sx={{ color: 'black', textDecoration: 'none' }} href='/list'>List </Box>
                 </Box>
                 <Box sx={{ width: '25%' }}>
