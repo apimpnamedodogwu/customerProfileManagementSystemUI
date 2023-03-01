@@ -33,7 +33,6 @@ function AddCustomer(props) {
             <Input onChange={onChange} required name={'lastName'} label={'Last name'} />
             <Input onChange={onChange} required name={'email'} label={'Email'} />
             <Input onChange={onChange} required name={'phoneNumber'} label={'Phone'} />
-            {/* <Input onChange={onChange} required name={'productPlan'} label={'Product Plan'} /> */}
             <Box name='productPlan' onChange={onChange} required component='select' sx={{ width: '100%', my: 1, py: 2, px: 2, borderRadius: '5px' }}>
                 <Box component={'option'} sx={{ width: '100%' }} value=''>
                     Select product plan
